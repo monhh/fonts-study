@@ -1,0 +1,69 @@
+/* ============================================================ */
+/* Fonts improve site performance: */
+/* ============================================================ */
+/* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; */
+/* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+
+/* https://modernfontstacks.com/ */
+/* https://github.com/system-fonts/modern-font-stacks#system-ui */
+
+/* https://tailwindcss.com/docs/font-family */
+
+/* body {
+    font-family: system-ui, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 600px;
+}
+
+h1 {font-size: 4.25rem; font-weight: 800}
+h2 {font-size: 2.75rem;}
+h3 {font-size: 1.625rem;}
+
+h1, h2, h3 {
+    line-height: 1;
+} */
+
+
+/* ============================================================ */
+/* Typographic Flow and Visual Rhythm */
+/* ============================================================ */
+
+* { margin: 0; }
+
+.regular-flow > * + * {
+    margin-top: 1em;
+}
+
+.consistent-flow > * + * {
+    margin-top: 1rem;
+}
+
+body {
+    font-family: system-ui;
+    margin: 2rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1, h2, h3 {line-height: 1;}
+
+h1 {font-size: 3rem;}
+h2 {font-size: 2.25rem;}
+h3 {font-size: 1.5rem;}
+
+
+
+
+/* ==========================================================================
+    stackoverflow 
+========================================================================== */
+
+/* 
+--ff-sans: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
+--ff-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+--ff-mono: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+*/
